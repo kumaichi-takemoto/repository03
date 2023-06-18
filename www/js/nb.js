@@ -14,11 +14,11 @@ const f=()=>{
 
 	testClass
 		.set("message", "Hello, NCMB!")
-	  .save()
-	  .then(function(object){
+		.save()
+		.then((object)=>{
   		// 保存に成功した場合の処理
 		})
-	  .catch(function(err){
+	  .catch((err)=>{
 			// 保存に失敗した場合の処理
 		});
 };
